@@ -1,0 +1,14 @@
+- name: "Machine Learning Avanzado"
+  level: "Posgrado"
+  semester: "Primavera 2024"
+  description: "Curso que profundiza en técnicas avanzadas de aprendizaje supervisado y no supervisado, con énfasis en métodos bayesianos y regularización. Se incluyen redes neuronales profundas, teoría de la VC-dimension y optimización convexa."
+
+- name: "Redes de Energía Renovable"
+  level: "Posgrado"
+  semester: "Otoño 2024"
+  description: "Análisis de sistemas de potencia con alta penetración renovable. Modelado estocástico, programación estocástica multi-etapa, y aplicación de técnicas de optimización robusta."
+
+- name: "Cadenas de Markov y Modelos Estocásticos"
+  level: "Pregrado"
+  semester: "Anual"
+  description: "Se abordan cadenas de Markov, ergodicidad, convergencia a la distribución estacionaria, modelos de Markov ocultos, y sus aplicaciones en predicción de series temporales para el sector energético."

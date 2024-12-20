@@ -1,0 +1,14 @@
+- name: "Premio a la Excelencia en Investigación"
+  year: 2023
+  institution: "Sociedad IEEE-PES"
+  details: "Contribuciones a la optimización estocástica en redes renovables, rigor matemático y método robusto."
+
+- name: "Best Paper Award"
+  year: 2022
+  institution: "Conferencia Internacional de Sistemas Energéticos"
+  details: "Nuevas relajaciones semidefinidas en problemas no lineales y demostraciones de exactitud."
+
+- name: "Distinción a la Excelencia Docente"
+  year: 2021
+  institution: "Universidad X"
+  details: "Integración exitosa de teoría matemática compleja en la docencia, potenciando el razonamiento analítico de los estudiantes."

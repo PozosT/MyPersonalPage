@@ -1,0 +1,17 @@
+- name: "María López"
+  level: "Doctorado"
+  period: "2021 - Presente"
+  thesis_title: "Planeación Óptima de Sistemas de Potencia con Alta Penetración de Eólica"
+  details: "Uso de modelos estocásticos avanzados basados en cadenas de Markov de alta dimensión. Aplicación de métodos de descomposición de Benders y validación en casos reales."
+
+- name: "Javier Pérez"
+  level: "Maestría"
+  period: "2022 - 2023"
+  thesis_title: "Aplicación de Deep Learning en Predicción de Demanda Eléctrica"
+  details: "Arquitectura de redes neuronales recurrentes con análisis de convergencia y robustez ante datos faltantes. Validación en conjuntos de datos regionales."
+
+- name: "Sofía González"
+  level: "Pregrado"
+  period: "2023"
+  thesis_title: "Modelado Probabilístico de la Variabilidad Solar"
+  details: "Desarrollo de modelos HMM para series temporales solares, con selección de orden óptimo usando criterios AIC/BIC."

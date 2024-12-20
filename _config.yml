@@ -1,0 +1,8 @@
+title: "Mi Página Académica"
+description: "Sitio personal para mi ascenso profesoral"
+theme: jekyll-theme-cayman
+url: "https://pozost.github.io"
+baseurl: "/MyPersonalPage"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax

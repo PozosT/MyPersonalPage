@@ -1,0 +1,22 @@
+articles:
+  - title: "Stochastic Modeling of Renewable Energy Resources for Power System Planning"
+    journal: "Energy Systems"
+    year: 2023
+    description: "Formulación de modelos HMM y pruebas de convergencia en distribución estacionaria."
+
+  - title: "Deep Neural Architectures for Load Forecasting under Uncertainty"
+    journal: "IEEE Transactions on Power Systems"
+    year: 2022
+    description: "Autoencoders variacionales, análisis de errores y cotas teóricas de optimalidad."
+
+conferences:
+  - title: "A Conic Relaxation Approach to Optimal Power Flow under Stochastic Inputs"
+    conference: "PSCC Conference"
+    year: 2021
+    description: "Relajaciones semidefinidas, exactitud global y resultados numéricos extensivos."
+
+books:
+  - title: "Renewable Energy Planning: Stochastic Models and Optimization"
+    publisher: "Editorial Académica"
+    year: 2020
+    description: "Compendio teórico-práctico de optimización bajo incertidumbre, con pruebas formales de convergencia."

@@ -1,0 +1,17 @@
+- title: "Optimización Estocástica para Sistemas de Potencia Renovable"
+  funding: "Agencia Nacional de Ciencia y Tecnología"
+  period: "2021 - 2024"
+  role: "Investigador Principal"
+  summary: "Formulación estocástica multi-etapa, métodos robustos y descomposición matemática para integración de energías renovables."
+
+- title: "Deep Learning y Optimización Convexa en Smart Grids"
+  funding: "Unión Europea (Programa Horizonte)"
+  period: "2020 - 2023"
+  role: "Colaborador Senior"
+  summary: "Uso de redes neuronales para predicción y relajaciones semidefinidas en flujo óptimo de potencia. Pruebas de factibilidad global y convergencia."
+
+- title: "Cadenas de Markov de Alta Dimensión para Recursos Eólicos"
+  funding: "Fundación Internacional de Energías Limpias"
+  period: "2019 - 2022"
+  role: "Co-Investigador"
+  summary: "Modelado eólico con HMM de orden superior, reducción de dimensionalidad y análisis de convergencia asintótica."
