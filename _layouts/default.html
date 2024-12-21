@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} - {{ site.title }}</title>
@@ -12,32 +13,34 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">Sobre Mí</a></li>
-        <li><a href="{{ '/research/' | relative_url }}">Investigación</a></li>
-        <li><a href="{{ '/teaching/' | relative_url }}">Docencia</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}">Publicaciones</a></li>
-        <li><a href="{{ '/grants/' | relative_url }}">Proyectos</a></li>
-        <li><a href="{{ '/awards/' | relative_url }}">Premios</a></li>
-        <li><a href="{{ '/students/' | relative_url }}">Estudiantes</a></li>
-        <li><a href="{{ '/philosophy/' | relative_url }}">Filosofía</a></li>
-        <li><a href="{{ '/outreach/' | relative_url }}">Extensión</a></li>
-        <li><a href="{{ '/service/' | relative_url }}">Servicio</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    {{ content }}
-  </main>
+  <div style="display:flex;">
+    <aside style="min-width:200px; margin-right:20px;">
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Sobre Mí</a></li>
+          <li><a href="{{ '/research/' | relative_url }}">Investigación</a></li>
+          <li><a href="{{ '/teaching/' | relative_url }}">Docencia</a></li>
+          <li><a href="{{ '/publications/' | relative_url }}">Publicaciones</a></li>
+          <li><a href="{{ '/grants/' | relative_url }}">Proyectos</a></li>
+          <li><a href="{{ '/awards/' | relative_url }}">Premios</a></li>
+          <li><a href="{{ '/students/' | relative_url }}">Estudiantes</a></li>
+          <li><a href="{{ '/philosophy/' | relative_url }}">Filosofía</a></li>
+          <li><a href="{{ '/outreach/' | relative_url }}">Extensión</a></li>
+          <li><a href="{{ '/service/' | relative_url }}">Servicio</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contacto</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      {{ content }}
+    </main>
+  </div>
 
   <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Todos los derechos reservados.</p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
   </footer>
 </body>
 </html>
+
+
