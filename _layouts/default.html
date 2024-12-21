@@ -1,114 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dra. Alejandra Tabares Pozos</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #004080;
-            color: #fff;
-            padding: 1.5rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #003060;
-            padding: 0.5rem 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-size: 1.1rem;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 2rem;
-        }
-        .section {
-            margin-bottom: 3rem;
-        }
-        .section h2 {
-            border-bottom: 2px solid #004080;
-            padding-bottom: 0.5rem;
-        }
-        .card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 1rem;
-            margin: 1rem 0;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background: #004080;
-            color: #fff;
-            margin-top: 2rem;
-        }
-    </style>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header>
         <h1>Dra. Alejandra Tabares Pozos</h1>
-        <p>Profesora Asistente | Machine Learning, Deep Learning, Sistemas de Potencia</p>
-    </header>
-    <nav>
-        <a href="#about">Sobre Mí</a>
-        <a href="#research">Investigación</a>
-        <a href="#publications">Publicaciones</a>
-        <a href="#teaching">Docencia</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-    <div class="container">
-        <section id="about" class="section">
-            <h2>Sobre Mí</h2>
-            <p>Soy profesora asistente en el Departamento de Ingeniería Industrial de la Universidad de los Andes. Mi investigación se centra en el desarrollo de modelos matemáticos avanzados y métodos de optimización robusta para la planificación de sistemas de potencia con alta penetración de energía renovable descentralizada.</p>
-        </section>
-        <section id="research" class="section">
-            <h2>Investigación</h2>
-            <div class="card">
-                <h3>Redes Inteligentes</h3>
-                <p>Desarrollo de algoritmos de aprendizaje profundo para la gestión de redes eléctricas inteligentes.</p>
-            </div>
-            <div class="card">
-                <h3>Optimización Estocástica</h3>
-                <p>Creación de modelos para integrar incertidumbre en sistemas de energía renovable.</p>
-            </div>
-        </section>
-        <section id="publications" class="section">
-            <h2>Publicaciones</h2>
+        <nav>
             <ul>
-                <li><strong>Análisis de Redes Inteligentes</strong>, IEEE Transactions, 2023.</li>
-                <li><strong>Optimización de Sistemas de Energía</strong>, Renewable Energy Journal, 2022.</li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/MyPersonalPage/pages/about.md">Sobre Mí</a></li>
+                <li><a href="/MyPersonalPage/pages/research.md">Investigación</a></li>
+                <li><a href="/MyPersonalPage/pages/publications.md">Publicaciones</a></li>
+                <li><a href="/MyPersonalPage/pages/contact.md">Contacto</a></li>
             </ul>
-        </section>
-        <section id="teaching" class="section">
-            <h2>Docencia</h2>
-            <p>Enseño cursos avanzados de Machine Learning, Deep Learning, y optimización para sistemas de potencia. Mis clases combinan teoría con aplicaciones prácticas en problemas reales del sector energético.</p>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contacto</h2>
-            <p>Correo: <a href="mailto:ale.tabares@uniandes.edu.co">ale.tabares@uniandes.edu.co</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/aletabares" target="_blank">linkedin.com/in/aletabares</a></p>
-        </section>
-    </div>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
     <footer>
         <p>&copy; 2024 Dra. Alejandra Tabares Pozos</p>
     </footer>

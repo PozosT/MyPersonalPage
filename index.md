@@ -1,13 +1,21 @@
 ---
-layout: default
+layout: home
 title: "Inicio"
-permalink: /
 ---
 
-# Dr. Alejandra Tabares Pozos
+# Bienvenida
+Esta es la página personal de la Dra. Alejandra Tabares Pozos. Explora las secciones para más información:
 
-Profesor Asistente, Departamento de Ingeniería Industrial, Universidad de los Andes
-
-Mi trabajo se centra en el desarrollo de modelos matemáticos avanzados y métodos de optimización robusta para la planificación de sistemas de potencia con alta penetración de energía renovable descentralizada. Mis investigaciones abarcan el modelado estocástico de fuentes renovables, aplicaciones de Machine Learning y Deep Learning para la gestión inteligente de redes, y el análisis matemático de algoritmos de aprendizaje.
-
-[Más sobre mí](pages/about.md)
+<ul>
+  <li><a href="/MyPersonalPage/pages/about.md">About</a></li>
+  <li><a href="/MyPersonalPage/pages/awards.md">Awards</a></li>
+  <li><a href="/MyPersonalPage/pages/contact.md">Contact</a></li>
+  <li><a href="/MyPersonalPage/pages/grants.md">Grants</a></li>
+  <li><a href="/MyPersonalPage/pages/outreach.md">Outreach</a></li>
+  <li><a href="/MyPersonalPage/pages/philosophy.md">Philosophy</a></li>
+  <li><a href="/MyPersonalPage/pages/publications.md">Publications</a></li>
+  <li><a href="/MyPersonalPage/pages/research.md">Research</a></li>
+  <li><a href="/MyPersonalPage/pages/service.md">Service</a></li>
+  <li><a href="/MyPersonalPage/pages/students.md">Students</a></li>
+  <li><a href="/MyPersonalPage/pages/teaching.md">Teaching</a></li>
+</ul>

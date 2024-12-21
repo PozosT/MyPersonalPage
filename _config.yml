@@ -1,8 +1,10 @@
-title: "Mi Página Académica"
-description: "Aquí encontrarás información sobre mi carrera profesoral, investigativa y desarrollo institucional"
-theme: jekyll-theme-cayman
+title: "Dra. Alejandra Tabares Pozos"
+description: "Página personal enfocada en investigación, docencia y publicaciones."
+theme: minima
 url: "https://pozost.github.io"
 baseurl: "/MyPersonalPage"
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+permalink: pretty
+paginate: 5
