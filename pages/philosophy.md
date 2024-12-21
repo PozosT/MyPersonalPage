@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Filosofía"
+permalink: /philosophy/
 ---
 
 # Filosofía Docente e Investigativa

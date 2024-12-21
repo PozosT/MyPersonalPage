@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Proyectos Financiados"
+permalink: /grants/
 ---
 
 # Proyectos Financiados (Grants) y Colaboraciones

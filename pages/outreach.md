@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Extensión y Divulgación"
+permalink: /outreach/
 ---
 
 # Actividades de Extensión y Divulgación

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Sobre Mí"
+permalink: /about/
 ---
 
 # Sobre Mí

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Investigación"
+permalink: /research/
 ---
 
 # Investigación

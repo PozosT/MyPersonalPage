@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Premios y Reconocimientos"
+permalink: /awards/
 ---
 
 # Premios y Reconocimientos

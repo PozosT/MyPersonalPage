@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Dirección de Tesis y Estudiantes"
+permalink: /students/
 ---
 
 # Dirección de Tesis y Estudiantes

@@ -5,32 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} - {{ site.title }}</title>
 
-  <!-- Favicon (opcional) -->
-  <!-- <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon" /> -->
-
-  <!-- Estilos del tema o propios -->
+  <!-- Estilos -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- Integración opcional de MathJax para ecuaciones -->
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+  <!-- MathJax (opcional) -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
   <header>
-    <h1><a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
     <nav>
       <ul>
-        <li><a href="{{ site.baseurl | prepend: site.url }}">Inicio</a></li>
-        <li><a href="{{ '/pages/about.md' | relative_url }}">Sobre Mí</a></li>
-        <li><a href="{{ '/pages/research.md' | relative_url }}">Investigación</a></li>
-        <li><a href="{{ '/pages/teaching.md' | relative_url }}">Docencia</a></li>
-        <li><a href="{{ '/pages/publications.md' | relative_url }}">Publicaciones</a></li>
-        <li><a href="{{ '/pages/grants.md' | relative_url }}">Proyectos</a></li>
-        <li><a href="{{ '/pages/awards.md' | relative_url }}">Premios</a></li>
-        <li><a href="{{ '/pages/students.md' | relative_url }}">Estudiantes</a></li>
-        <li><a href="{{ '/pages/philosophy.md' | relative_url }}">Filosofía</a></li>
-        <li><a href="{{ '/pages/outreach.md' | relative_url }}">Extensión</a></li>
-        <li><a href="{{ '/pages/service.md' | relative_url }}">Servicio</a></li>
-        <li><a href="{{ '/pages/contact.md' | relative_url }}">Contacto</a></li>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">Sobre Mí</a></li>
+        <li><a href="{{ '/research/' | relative_url }}">Investigación</a></li>
+        <li><a href="{{ '/teaching/' | relative_url }}">Docencia</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publicaciones</a></li>
+        <li><a href="{{ '/grants/' | relative_url }}">Proyectos</a></li>
+        <li><a href="{{ '/awards/' | relative_url }}">Premios</a></li>
+        <li><a href="{{ '/students/' | relative_url }}">Estudiantes</a></li>
+        <li><a href="{{ '/philosophy/' | relative_url }}">Filosofía</a></li>
+        <li><a href="{{ '/outreach/' | relative_url }}">Extensión</a></li>
+        <li><a href="{{ '/service/' | relative_url }}">Servicio</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contacto</a></li>
       </ul>
     </nav>
   </header>

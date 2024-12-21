@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Servicio Académico"
+permalink: /service/
 ---
 
 # Servicio Académico y Profesional

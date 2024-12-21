@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Inicio"
+permalink: /
 ---
 
 # Dr. Alejandra Tabares Pozos

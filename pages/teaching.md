@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Docencia"
+permalink: /teaching/
 ---
 
 # Docencia
